@@ -11,5 +11,10 @@ $(document).ready(function(){
    //Animate Company Logo
     $(".login img").animate({top:"-80px"},500);
     //Animate .welcome-visitor Message
-    $(".welcome-visitor").animate({opacity:'1'},500);
+    $(".welcome-visitor").animate({opacity:'1'},500,function(){
+        $(".login").css('borderWidth', '1px');
+        $(".login").css('borderStyle', 'solid');
+        $(".login").css('borderColor', '#193f75');
+    });
+    
 });
