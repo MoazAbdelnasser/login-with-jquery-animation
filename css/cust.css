@@ -1,0 +1,47 @@
+h1{
+    position: relative;
+    top: -100px;
+    text-align: center;
+}
+.welcome-visitor{
+    font-size: 1.5em;
+    text-align: center;
+    color: #f99300;
+    font-weight: 600;
+    opacity: 0.1;
+    background: radial-gradient(rgb(27 64 113), transparent);
+}
+.login{
+    width: 50%;
+    border: 1px solid #193f75;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 3%;
+}
+.login img{
+    width: 15%;
+    position: relative;
+    left: 35%;
+    top: 15px;
+    border-radius: 50%;
+}
+.form-check{
+    display: inline-block;
+    margin-left: 15%;
+    padding-top: 2%;
+    width: 25%;
+    font-size: 1.2em
+}
+button.float-left{
+    position: relative;
+    left: -100%;
+}
+button.float-right{
+    position: relative;
+    right: -100%;
+}
+.form-check{
+    display: none;
+    position: relative;
+    bottom: -100px;
+}
